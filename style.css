@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    color: #FFF0F5;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    background-color: pink;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 32px;
+    gap: 16px;
+    border-radius: 12px;
+}
+
+button, input, .resultado{
+    font-size: 15px;
+    padding-inline: 14px;
+    height: 30px;
+    border-radius: 12px;
+}
